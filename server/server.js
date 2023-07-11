@@ -5,7 +5,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
+  res.setHeader('Content-Type', 'text/plain; charset=utf-8');
   res.end('Olá, mundo!');
 });
 
